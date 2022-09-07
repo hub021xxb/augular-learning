@@ -1,4 +1,4 @@
-<form #form="ngForm" (ngSubmit)="login(pwd.value)">
+<form #form="ngForm" (ngSubmit)="login()">
   <div class="form-group">
     <!--  #phone是模板引用变量   -->
     <input type="text" class="form-control" name="phone" [(ngModel)]="model.phone"
